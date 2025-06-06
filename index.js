@@ -1,5 +1,4 @@
 const slides = document.querySelectorAll('.hero-slider');
-const hero = document.querySelector('.hero')
 let current = 0;
 
 function showSlide(index) {
