@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 25px 10px 25px 30px;
+
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    background-color: #1F2937;
+}
+
+.right-components{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 18px;
+    width: 20vw;
+}
+
+.right-components > li:hover{
+    opacity: 0.5;
+}
