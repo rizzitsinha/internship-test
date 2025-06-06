@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 *,*::after, *::before{
     box-sizing: inherit;
@@ -14,7 +15,6 @@ html{
     padding: 25px 10px 25px 30px;
 
     font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: azure;
     background-color: #1F2937;
 }
@@ -30,3 +30,51 @@ html{
 .right-components > li:hover{
     opacity: 0.5;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.hero-container{
+    font-size: 24px;
+    background-color: #1F2937;
+    color: azure;
+    padding: 100px;
+
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+img{
+    height: 300px;
+}
+
+.hero-text{
+    font-size: 80px;
+}
+
+.small-text{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.btn button{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    color: azure;
+    font-size: 15px;
+}
+
+.btn button:hover{
+    opacity: 0.8;
+}
+
+.btn button:active{
+    opacity: 0.4;
+}
+
